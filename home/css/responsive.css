@@ -1,0 +1,214 @@
+/*  */
+@media (max-width: 1199px) {
+
+    .hd1,
+    footer {
+        padding: 20px;
+    }
+
+    .footer-inner .f1 {
+        order: 20;
+        margin-top: 30px;
+    }
+}
+
+/* Tablet */
+@media (max-width: 991px) {
+
+    .col-tb-12 {
+        width: 100%;
+    }
+
+    .col-tb-4 {
+        width: 33.33%;
+    }
+
+
+    .b-box {
+        margin-right: 20px;
+    }
+
+    .col-tb-12 {
+        width: 100%;
+    }
+
+    nav ul li {
+        margin-right: 20px;
+    }
+
+    .navbar .brands {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar {
+        margin-bottom: 20px;
+    }
+}
+
+/* Mobile horizontally */
+@media (max-width: 757px) {
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav {
+        margin-top: 20px;
+    }
+
+
+    .col-mh-12 {
+        width: 100%;
+    }
+
+    .col-hr-6 {
+        width: 50%;
+    }
+
+    .r1 {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .choose-inner {
+        flex-direction: column;
+    }
+
+    .part1 {
+        text-align: start;
+        align-items: flex-start;
+    }
+
+    .choose-inner img {
+        order: -1;
+        margin-top: 30px;
+    }
+
+    .choose-inner .image::before {
+        padding: 0%;
+    }
+
+    .choose-inner .image::after {
+        padding: 0%;
+    }
+
+
+    .study {
+        height: 500px;
+        flex-direction: column;
+        width: 300px;
+    }
+
+    .s2 img {
+        width: 100%;
+    }
+
+    .footer-inner {
+        display: block;
+    }
+
+    .f1 .sicons a i {
+        margin-top: 10px;
+    }
+
+    .f1 {
+        margin-bottom: 20px;
+    }
+
+    .f2 ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    .f2 ul li a {
+        margin-top: 10px;
+    }
+
+    .hd1 {
+        margin-top: 8rem;
+    }
+
+    .hd1-inner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hd1-inner .hd-blue h1 {
+        font-size: 2rem;
+    }
+
+    .hd1-inner .hd-blue p {
+        margin-bottom: 25px;
+    }
+
+    .hd1-img img {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+}
+
+/* Mobile vertical */
+@media (max-width: 575px) {
+
+    .hd1 {
+        margin-top: 11rem;
+    }
+
+    .hd1-inner .hd-blue h1 {
+        font-size: 1rem;
+        margin-bottom: 0px;
+    }
+
+    .hd1 img {
+        margin-top: 2rem;
+    }
+
+    .about-inner {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .r1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .p1 {
+        align-self: self-start;
+    }
+
+    .our-courses-inner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav ul li {
+        margin-top: 20px;
+    }
+
+
+    .box {
+        margin-top: 20px;
+    }
+
+    .f1 {
+        margin-bottom: 20px;
+    }
+
+    .col-hr-12 {
+        width: 100%;
+    }
+
+}

@@ -1,0 +1,249 @@
+/* common css start */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x:hidden;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+/* common css end */
+
+/* navbar start */
+.navbar {
+    padding: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0.0625rem 5px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+}
+
+nav ul {
+    display: flex;
+}
+
+.nav-logo {
+    width: 12.5rem;
+}
+
+nav ul li {
+    margin-right: 1.45rem;
+    position: relative;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+nav ul li a::after {
+    content: '';
+    position: absolute;
+    bottom: -0.3125rem;
+    left: 0;
+    width: 0%;
+    height: 0.125rem;
+    background-color: red;
+    transition: all 0.4s ease-in-out;
+}
+
+nav ul li a:hover:after {
+    width: 100%;
+}
+
+/* navbar end */
+
+/* courses start */
+.courses {
+    padding: 1.25rem;
+    background-color: #f7fcff;
+    width: 100%;
+    margin-top: 7rem;
+}
+
+.cinner {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+.cinner .c1 {
+    width: 250px;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+.c1 i {
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.c1 h3 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.cinner .c1:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+/* courses end */
+
+
+/* study start */
+.study {
+    padding: 1.65rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0rem 10px rgba(0, 0, 0, 0.2);
+    width: 700px;
+    height: 300px;
+    margin: auto;
+    margin-top: 5rem;
+    border-radius: 5px;
+}
+
+.study .s1 h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.study .s1 p {
+    font-size: 18px;
+    margin-bottom: 23px;
+}
+
+.study .s1 a {
+    background-color: rgb(62, 62, 135);
+    color: white;
+    padding: 12px 20px;
+    border-radius: 10px;
+}
+
+.study .s1 a:hover {
+    background-color: blue;
+}
+
+.study .s1 a i {
+    background-color: white;
+    color: black;
+    margin-left: 10px;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+
+.s2 img {
+    width: 300px;
+}
+
+/* study end */
+
+
+/* footer start */
+.footer-inner {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+    padding: 1.65rem;
+    font-size: 20px;
+}
+
+.footer-inner i {
+    background-color: white;
+    color: blue;
+}
+
+.f1 a:first-child {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+.f1 p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.f1 .sicons {
+    margin-top: 20px;
+}
+
+.f1 .sicons a i {
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.f1 .sicons a i:hover {
+    background-color: rgb(73, 73, 174);
+    color: white;
+}
+
+.f2 ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.f2 ul li a {
+    color: white;
+    font-size: 22px;
+
+}
+
+.f3 {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    justify-content: center;
+}
+
+.f3 img {
+    width: 100px;
+    margin-left: 20px;
+}
+
+/* footer end */
